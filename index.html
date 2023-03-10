@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JavaScript Functions</title>
+</head>
+<body>
+    
+    <script>
+        function add7(num) {
+            return num + 7;
+        }
+
+        console.log(add7(23))
+
+        function multiply(a, b) {
+            return a * b 
+        }
+
+        console.log(multiply(2, 10))
+
+        function capatalize() {
+            let message = prompt('enter string')
+            console.log(message.charAt(0).toUpperCase() + message.slice(1).toLowerCase());
+        }
+
+        function lastLetter() {
+            let message = prompt('enter string')
+            console.log(message.at(-1));
+        }
+
+        lastLetter()
+
+        
+    </script>
+
+</body>
+</html>
